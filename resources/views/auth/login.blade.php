@@ -28,6 +28,13 @@
         @endif
     </div>
 
+    <div class="form-group form-floating mb-3">
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="remember" name="remember" value="1">
+            <label class="custom-control-label" for="remember">Remember me</label>
+        </div>
+    </div>
+
     <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
 
     <div class="mt-3">
